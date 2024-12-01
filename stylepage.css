@@ -1,0 +1,128 @@
+/* Color Palette
+#F4FAFF - Alice Blue
+#DEE7E7 - Platunum
+#B7ADCF - Thistle
+#4F646F - Payne's gray
+#535657 - Davy's gray
+*/
+
+/* Global styles
+---------------------------- */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #4F646F;
+    color: #F4FAFF;
+}
+
+body {
+    background-color: #DEE7E7;
+    color: #535657;
+    font-size: 20px;
+}
+
+/* Navigation buttons */
+a:hover {
+    color: #B7ADCF;
+}
+
+/* About Me
+---------------------------- */
+.About {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.EnochProfile-img {
+    width: 200px;
+    border-radius: 30%;
+}
+
+.AlisaProfile-img {
+    width: 275px;
+    border-radius: 30%;
+}
+
+#Name {
+    font-size: 40px;
+}
+
+.About p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Resources
+---------------------------- */
+.Resource {
+    overflow: auto;
+}
+
+.Resource h1 {
+    font-size: 30px;
+}
+
+.Resource p {
+    font-size: 30px;
+}
+
+.col-left {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.col-right {
+    width: 66%;
+    float: left;
+    min-height: 175px;
+    padding-left: 15px;
+}
+
+/* Tech Heros
+---------------------------- */
+.LannySmoot p,
+.MarquesBrownlee p {
+    font-size: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.LannySmoot {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.LannySmoot-img {
+    margin: 20px;
+    width: 400px;
+    border-radius: 30%;
+}
+
+.MarquesBrownlee {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.MarquesBrownlee-img {
+    margin: 20px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+.video {
+    padding-top: 20px;
+}
