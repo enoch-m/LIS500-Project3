@@ -32,6 +32,13 @@ a:hover {
     color: #B7ADCF;
 }
 
+/* Home Page
+---------------------------- */
+.project-statements {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
 /* About Me
 ---------------------------- */
 .About {
