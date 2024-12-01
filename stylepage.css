@@ -34,10 +34,21 @@ a:hover {
 
 /* Home Page
 ---------------------------- */
-.project-statements {
+.welcome {
+    text-align: center;
     padding-left: 250px;
     padding-right: 250px;
 }
+
+/* Increase the size of 'Home-img' */
+.Home-img {
+    display: block; /* Makes the image behave like a block for easier centering */
+    margin: 20px auto; /* Centers the image horizontally and adds some spacing */
+    width: 50%; /* Adjust the percentage as needed for the size you want */
+    max-width: 100%; /* Ensures it doesn't overflow its container */
+}
+
+
 
 /* About Me
 ---------------------------- */
@@ -132,4 +143,11 @@ a:hover {
 
 .video {
     padding-top: 20px;
+}
+
+/* TeachingMachines Page
+---------------------------- */
+.project-statements, .embedded-video, .ML-application-experiments, .reflections {
+    padding-left: 250px;
+    padding-right: 250px;
 }
