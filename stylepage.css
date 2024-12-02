@@ -88,6 +88,11 @@ a:hover {
     border-radius: 30%;
 }
 
+.CalProfile-img {
+    width: 275px;
+    border-radius: 30%;
+}
+
 #Name {
     font-size: 40px;
 }
