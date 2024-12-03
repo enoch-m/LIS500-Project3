@@ -23,7 +23,11 @@
         <p>
             Our project takes the lessons learned from the book “Unmasking AI” by Joy Buolamwini and applies it to
             teaching a machine. We use an online tool called Teachable Machine 2.0, that trains a computer to recognize
-            images, sounds, poses, etc.
+            images, sounds, poses, etc. We plan to explore these ideas by creating a machine learning model using
+            Teachable Machine 2.0 to train a model to recognize everyday objects, such as an iPhone, a pair of scissors,
+            a computer mouse, and a pair of headphones. Through this hands-on approach, we aim to better understand how
+            machine learning models are trained and the importance of diverse, balanced datasets in achieving accurate
+            predictions.
         </p>
         <h2>Lessons learned from ‘Unmasking AI’</h2>
         <p>
@@ -85,11 +89,20 @@
         have a role to play in this. How we treat and use AI affects people on a larger scale.
         </p>
         <p>
-            So with this project, we want to find ways where we can use AI to learn. A benefit to a seemingly limitless
+        <h2>Motivations and Objectives for the Project</h2>
+        <p>AI systems are becoming increasingly integrated into our daily lives, from personal assistants to advanced
+            decision-making algorithms. While these technologies have immense potential, they also carry significant
+            risks when biases in training data are overlooked. Buolamwini’s work serves as a wake-up call, revealing how
+            biases in AI systems can perpetuate social injustices.</p>
+        <p>So with this project, we want to find ways where we can use AI to learn. A benefit to a seemingly limitless
             catalog of knowledge is that there is so much to explore. In order to learn, we have to be curious and have
             humility. When we know that we don’t have all the answers, we can see how much more we can learn, and we can
             use AI as a means to get there. We think that this requires a perspective shift. We can’t be overly reliant
             on AI to solve things for us and we have to make sure that our goals are not affecting people negatively.
+        </p>
+        <p>Our primary objective is to create a simple yet effective machine learning model and use it as a framework to
+            understand the mechanics of machine learning, investigate how biases in data affect model outcomes, and
+            reflect on the ethical responsibilities associated with AI development.</p>
         </p>
 
     </div>
@@ -108,38 +121,85 @@
     <div class="ML-application-experiments">
         <!-- Content can be split into different pages-->
         <h1>Project Scope</h1>
-        <img src="Images/gather_img_sample.png" alt="gather image sample" width=".25">
-        <img src="Images/more_sample_classes.png" alt="gather more samples" width=".25">
-        <img src="Images/training_model.png" alt="train the model" width=".25">
-        <img src="Images/train_complete.png" alt="training complete" width=".25">
-        <img src="Images/export_model.png" alt="export the model with url" width=".25">
+        <p>Classification: Personal Commen Accessories</p>
+        <p>Range: Four different accessories</p>
+        <p>Item List: iPhone, Scissor, Mouse, Headphone</p>
+        <p>Image Samples: around 120 to 250 for each classified item</p>
+
         <h1>Process</h1>
+        <ol>
+            <li>
+                <p>Gather image samples using Webcam</p><img src="Images/gather_img_sample.png"
+                    alt="gather image sample" width=".25">
+            </li>
+            <li>
+                <p>Gather image samples for more classes</p><img src="Images/more_sample_classes.png"
+                    alt="gather more samples" width=".25">
+            </li>
+            <li>
+                <p>Train the model with the captured samples from different classes</p><img
+                    src="Images/training_model.png" alt="train the model" width=".25">
+            </li>
+            <li>
+                <p>Training for samples complete</p><img src="Images/train_complete.png" alt="training complete"
+                    width=".25">
+            </li>
+            <li>
+                <p>Exported the model with a sharable link for use</p><img src="Images/export_model.png"
+                    alt="export the model with url" width=".25">
+            </li>
+        </ol>
+        <p>A number of image samples were captured using Teachable Machine's Webcam, including a set of samples for
+            'Neutral,' which represents when there's nothing in the frame but only the background.</p>
+        <p>While capturing image samples using the Webcam, the item occasionally moves out of the camera's view, leaving
+            mostly the background captured. These background samples need to be manually deleted to reduce bias.</p>
+        <p>Perhaps because the sample used for the mouse is white, testing with a black mouse occasionally results in it
+            being misclassified as an iPhone, which suggest we might need more varied samples.</p>
+        <p>Overall, the machine learning model is able to successfully identify all the accessories.</p>
     </div>
 
     <div class="reflections">
         <!-- Our thoughts on the project -->
         <h1>Lessons Learned</h1>
-		<p>
-    		This project gave us a deeper understanding of the real-world implications of AI, especially regarding algorithmic biases. 
-    		Through applying lessons from "Unmasking AI" by Joy Buolamwini, we saw firsthand how AI tools like Google's Teachable Machines can be 
-    		influenced by the data they're trained on. The experience highlighted the responsibility that comes with building and using AI systems.
-		</p>
-		<p>
-		<h2>Awareness </h2>
-    		One key takeaway is the importance of awareness. Like Buolamwini’s examples of bias in public surveillance or facial recognition, 
-    		we realized how easily injustice can be perpetuated if we ignore underlying biases in AI. These lessons aren’t just theoretical but also 
-    		practical, especially as we see the growing impact of AI in our daily lives through tools like ChatGPT and other models. 
-    		This project emphasized to us that understanding bias is essential for ethical AI use. It is important to understand how to keep ethical practices 
-    		ourselves and explain to others their importance.
-		</p>
+        <p>
+            This project gave us a deeper understanding of the real-world implications of AI, especially regarding
+            algorithmic biases.
+            Through applying lessons from "Unmasking AI" by Joy Buolamwini, we saw firsthand how AI tools like Google's
+            Teachable Machines can be
+            influenced by the data they're trained on. The experience highlighted the responsibility that comes with
+            building and using AI systems.
+        </p>
+        <p>
+        <h2>Awareness </h2>
+        One key takeaway is the importance of awareness. Like Buolamwini’s examples of bias in public surveillance or
+        facial recognition,
+        we realized how easily injustice can be perpetuated if we ignore underlying biases in AI. These lessons aren’t
+        just theoretical but also
+        practical, especially as we see the growing impact of AI in our daily lives through tools like ChatGPT and other
+        models.
+        This project emphasized to us that understanding bias is essential for ethical AI use. It is important to
+        understand how to keep ethical practices
+        ourselves and explain to others their importance.
+        </p>
 
-		<p>
-    		Moreover, we reflected on our role as future developers and users of AI. Just as Buolamwini stressed the need for accountability in AI development,
-    		we recognized that we must actively question the data sources, training processes, and real-world applications of our models. This is
-    		for both our own models and those we interact with in our education and professional lives. Ethical AI can be achieved, and it is up to learn
-    		and implement these practices.
-		</p>
-		
+        <p>
+            Moreover, we reflected on our role as future developers and users of AI. Just as Buolamwini stressed the
+            need for accountability in AI development,
+            we recognized that we must actively question the data sources, training processes, and real-world
+            applications of our models. This is
+            for both our own models and those we interact with in our education and professional lives. Ethical AI can
+            be achieved, and it is up to learn
+            and implement these practices.
+        </p>
+        <p>During our testing, we encountered a real-world example of how training data affects model outcomes. Perhaps
+            because the sample images used for the mouse were all white, testing the model with a black mouse
+            occasionally resulted in it being misclassified as an iPhone. This finding highlights the importance of
+            using diverse and varied samples when training models to ensure they can generalize well. In our case, this
+            misclassification wasn’t critical, but in a real-world application, similar oversights could lead to
+            significant errors or reinforce harmful biases. This further reinforced the need for vigilance and
+            thoroughness in curating datasets for machine learning. By addressing these issues during the training
+            process, we can take a step toward building fairer and more reliable AI systems.</p>
+
     </div>
 
     <footer>

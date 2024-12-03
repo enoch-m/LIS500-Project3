@@ -21,6 +21,10 @@ footer {
     color: #F4FAFF;
 }
 
+footer {
+    margin-top: 60px;
+}
+
 body {
     background-color: #DEE7E7;
     color: #535657;
@@ -28,6 +32,7 @@ body {
 }
 
 h1 {
+    margin-top: 50px;
     font-size: 30px;
 }
 
@@ -43,6 +48,25 @@ img {
     width: 500px;
 }
 
+ol {
+    list-style-type: decimal;
+    /* Keeps the numbering */
+    padding: 0;
+    /* Removes default padding */
+    display: flex;
+    /* Aligns items horizontally */
+    flex-wrap: wrap;
+    /* Allows wrapping if needed */
+    gap: 10px;
+    /* Adds spacing between items */
+}
+
+li {
+    align-items: center;
+    /* Vertically centers number and image */
+    margin: 0 10px;
+}
+
 /* Navigation buttons */
 a:hover {
     color: #B7ADCF;
@@ -52,8 +76,8 @@ a:hover {
 ---------------------------- */
 .welcome {
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 /* Increase the size of 'Home-img' */
@@ -117,7 +141,7 @@ a:hover {
     float: left;
     min-height: 175px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .col-right {
@@ -125,6 +149,7 @@ a:hover {
     float: left;
     min-height: 175px;
     padding-left: 15px;
+    padding-top: 30px;
 }
 
 /* Tech Heros
@@ -172,6 +197,6 @@ a:hover {
 .embedded-video,
 .ML-application-experiments,
 .reflections {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
