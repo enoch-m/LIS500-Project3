@@ -77,8 +77,8 @@ a:hover {
 .welcome {
     text-align: center;
     font-size: 25px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .welcome h2 {
@@ -202,8 +202,8 @@ a:hover {
 .embedded-video,
 .ML-application-experiments,
 .reflections {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .TeachableMachines h1 {
