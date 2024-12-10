@@ -72,6 +72,11 @@ a:hover {
     color: #ff5733;
 }
 
+header a,
+footer a {
+    color: #F4FAFF;
+}
+
 /* Home Page
 ---------------------------- */
 .welcome {
@@ -150,7 +155,7 @@ a:hover {
 }
 
 .col-right {
-    width: 66%;
+    width: 67%;
     float: left;
     min-height: 175px;
     padding-left: 15px;
